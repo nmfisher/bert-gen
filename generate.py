@@ -141,7 +141,7 @@ def main(arguments):
 
     args = parser.parse_args(arguments)
 
-    pdb.set_trace()
+    #pdb.set_trace()
     tokenizer = BertTokenizer.from_pretrained(args.bert_version)
     model = load_model(args.bert_version)
 
